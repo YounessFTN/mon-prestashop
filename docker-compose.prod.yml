@@ -15,7 +15,7 @@ services:
       DB_NAME: ${DB_NAME}
       DB_USER: ${DB_USER}
       DB_PASSWD: ${DB_PASSWORD}
-      PS_INSTALL_AUTO: 0
+      PS_INSTALL_AUTO: ${PS_INSTALL_AUTO:-0}
       PS_DOMAIN: ${PS_DOMAIN}
       PS_ENABLE_SSL: 0
     ports:
